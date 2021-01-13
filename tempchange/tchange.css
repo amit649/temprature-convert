@@ -1,0 +1,67 @@
+body{
+    background-color:lightsteelblue;
+}
+.master-div{
+    height: 200px;
+    width: 450px;
+    background-color:white;
+    border-radius: 8px;
+}
+label{
+    color: gray;
+    font-size:13px;
+}
+.input-div{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+#inno{
+    height: 32px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.drop-d{
+    height:36px;
+    width: 150px;
+    position: relative;
+    top:5px;
+    left: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+#l2{
+    position: relative;
+    left:75px;
+}
+.button-color{
+    color: white;
+    background-color: rgba(7, 113, 252, 0.795);
+    height: 36px;
+    width:80px;
+    position: relative;
+    top: 5px;
+    left:15px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.result-div{
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+#outbox{
+    position: relative;
+    top:-15px;
+    font-size: larger;
+    font-weight: 900;
+}
+#outbox1{
+    position: relative;
+    top:-30px;
+    font-size: larger;
+    font-weight: 900;
+}

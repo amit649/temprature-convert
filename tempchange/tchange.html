@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tchange.css">
+        <script src="tchange.js"></script>
+    </head>
+    <body>
+        <div class="master-div">
+            <div class="input-div">
+                <label id="l1">Degrees</label>
+                <label id="l2">Type</label><br>
+                <input id="inno" class="input-style" type="number" onfocus="this.value=''" onclick="oncl()"/>
+                <select class="drop-d">
+                    <option>Fahrenheit</option>
+                    <option>Celsius</option>
+                    <option>Kelvin</option>
+                </select>
+                <button class="button-color" onclick="convert()">Convert</button>
+            </div>
+            <div class="result-div">
+                <label id="l3">Result</label>
+                <p id="outbox"></p>
+                <p id="outbox1"></p>
+            </div>
+        </div>
+    </body>
+</html>
